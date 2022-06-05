@@ -53,6 +53,6 @@
 	</build>
 
 	<modules>
-		<module>A</module>
+		<module>B</module>
 	</modules>
 </project>
