@@ -5,5 +5,5 @@
     <artifactId>softwareInstruments</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>A</artifactId>
+  <artifactId>B</artifactId>
 </project>
