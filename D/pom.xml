@@ -10,14 +10,20 @@
 	<artifactId>D</artifactId>
 	<packaging>jar</packaging>
 	<name>Project Module - D</name>
-	
-		<dependencies>
+
+	<dependencies>
 		<dependency>
 			<groupId>paunova.stefani</groupId>
 			<artifactId>C</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+			<exclusions>
+				<exclusion>
+					<groupId>paunova.stefani</groupId>
+					<artifactId>B</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 	</dependencies>
-	
+
 
 </project>
